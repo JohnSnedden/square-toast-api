@@ -3,7 +3,7 @@
 This repo project is an API and database for a simple Point of Sale (POS) system.
 A second repo exists for a [corresponding web client](https://github.com/JohnSnedden/square-toast-client)
 
-Below follows background information, you can also just skip ahead to the [API Docs](#) if you like.
+Below follows background information, you can also just skip ahead to the [API Docs](https://github.com/JohnSnedden/square-toast-api#api) if you like.
 
 
 ## Background
@@ -49,10 +49,10 @@ I also have an interest in the [Toast](https://pos.toasttab.com/) product.
 
 ## My Planning and Development Process, and Problem Solving Strategy
 I started by putting my initial thoughts about a POS system into a [mind map](https://drive.google.com/open?id=0B_T6q5vZjOqcQTBWTDNudTFQcHc).
-This helped me organicze my various thoughts and from that I was able to start to conceptulize what my ERD might look like.
+This helped me organize my various thoughts and from that I was able to start to conceptualize what my ERD might look like.
 
 I then created an [ERD](https://drive.google.com/open?id=0B_T6q5vZjOqcRVF0UlotQ1gxSWM).
-The ERD builds upon its self for what I thought would be five clear stages of product development.
+The ERD builds upon itself for what I thought would be five clear stages of product development.
 
 
 ## Wireframes
@@ -81,9 +81,9 @@ To begin with I'd like to add the following resources and incorporate them into 
 * Company authorization - Allow users to view/edit all orders for all companies they are connected to.
 * Order Items - Allow each order to have multiple items.
 * Products - Predefined products which can entered into orders.
-* Customer - Allow orders to be associated witha customer.
+* Customer - Allow orders to be associated with a customer.
 
-Beyond the above items I have many more concepts on the initial mind map which can be assessed for product market fit and feasibility based on user feedabck.
+Beyond the above items I have many more concepts on the initial mind map which can be assessed for product market fit and feasibility based on user feedback.
 
 
 
