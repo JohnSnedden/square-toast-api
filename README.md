@@ -38,12 +38,13 @@ Be deployed online, where the rest of the world can access it.
 3. Utilize an ORM to create a database table structure and interact with data
 4. Have at least 1 resource that has a relationship to User
 
+-----
 
 I chose to develop a simple POS based on my interest and experience with order processes and systems.
 
-Earlier in my career I worked with [SAP order to cash](https://www.sap.com/products/enterprise-management-erp/order-to-cash-module.html) product which gave me a lot of exposure to that database and the associated processes.
+Earlier in my career I worked with the [SAP order to cash](https://www.sap.com/products/enterprise-management-erp/order-to-cash-module.html) product which gave me a lot of exposure to that database and the associated processes.
 
-More recently I've worked with some saas order systems such as [Shopify](https://www.shopify.com/pos), [Square](https://squareup.com/pos), and [Vend](https://www.vendhq.com/us/).
+More recently I've configured and worked with some SaaS POS systems such as [Shopify](https://www.shopify.com/pos), [Square](https://squareup.com/pos), and [Vend](https://www.vendhq.com/us/).
 I also have an interest in the [Toast](https://pos.toasttab.com/) product.
 
 
@@ -52,25 +53,44 @@ I started by putting my initial thoughts about a POS system into a [mind map](ht
 This helped me organize my various thoughts and from that I was able to start to conceptualize what my ERD might look like.
 
 I then created an [ERD](https://drive.google.com/open?id=0B_T6q5vZjOqcRVF0UlotQ1gxSWM).
-The ERD builds upon itself for what I thought would be five clear stages of product development.
-
-
-## Wireframes
-Initial low-res hand sketch wireframes can be located [here](https://photos.app.goo.gl/ENLFeQ9wKtaOLayH2)
-
-
-## User Stories
-I utilized a [Trello board](https://trello.com/b/WOcJ8Bqd) to keep track of my user stories, progress, and bugs/issues during initial development. After initial development is complete I will switch to using the [GitHub repo issues list](https://github.com/JohnSnedden/square-toast-api/issues) for ongoing issue management.
+The ERD builds upon itself for what I thought would be five clear stages of product development. I did not expect to be able to complete all five stages during the project week but having the additional phases helped me understand what logically followed.
 
 
 ## Built With
 
-* Ruby on Rails
+* [Ruby on Rails](http://rubyonrails.org/)
+* [Heroku](https://www.heroku.com/)
+
+
+## Supported Functionality
+Currently the app API allows the following functionality
+
+Users
+* Sign-up (create a user)
+* Sign-in
+* Change password
+* Sign-out
+* List all users
+* Display an individual user
+
+Orders
+* Create an order
+* Update an order
+* Delete an order
+* List all orders
+* Display an individual order
+
+
+## Deployed sites
+The app and api are currently deployed here:
+
+api [https://square-toast.herokuapp.com/](https://square-toast.herokuapp.com/)
+app [https://johnsnedden.github.io/square-toast-client/](https://johnsnedden.github.io/square-toast-client/)
 
 
 ## Unsolved Problems
 
-* I'm not entirely happy with the lack of company component in this initial version. With the current setup multiple users can not share orders, like they might if they were working at the same food service establishment.
+* I'm not entirely happy with the lack of company component in this initial version. With the current setup multiple users can not share orders, like they might if they were working at the same food service establishment. With the requirements of this project focussig on user owned data I did not attempt to tackle this company owned data aspect during project week.
 
 
 ## Future Development
